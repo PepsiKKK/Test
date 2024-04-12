@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.example.skye.MyBatisPlusDemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.278 s <<< FAILURE! - in com.example.skye.MyBatisPlusDemoApplicationTests
+testInsert  Time elapsed: 0.521 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: 
+
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'id' at row 1
+### The error may exist in com/example/skye/mapper/BrandMapper.java (best guess)
+### The error may involve com.example.skye.mapper.BrandMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO brand  ( id, brand_name, company_name, ordered, status )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'id' at row 1
+; Data truncation: Out of range value for column 'id' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'id' at row 1
+	at com.example.skye.MyBatisPlusDemoApplicationTests.testInsert(MyBatisPlusDemoApplicationTests.java:33)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'id' at row 1
+	at com.example.skye.MyBatisPlusDemoApplicationTests.testInsert(MyBatisPlusDemoApplicationTests.java:33)
+
