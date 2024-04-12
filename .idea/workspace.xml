@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f0cc772-4cf1-4da1-9c05-aaac5a7d77dd" name="更改" comment="初始框架">
-      <change afterPath="$PROJECT_DIR$/JavaTest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestDoubleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/TestStringUtils/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/TestArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9f0cc772-4cf1-4da1-9c05-aaac5a7d77dd" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/TestDoubleArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/TestStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisPlus_demo/src/main/java/com/example/skye/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisPlus_demo/src/main/java/com/example/skye/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestDoubleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestDoubleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/target/test-classes/org/example/DataStructure/TestArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/test-classes/org/example/DataStructure/TestArrayTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -79,7 +74,7 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.291954&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -103,37 +98,8 @@
       <recent name="org.example.DataStructure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestArrayTest.merge">
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.Test01" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisPlusDemoApplicationTests.testDeleteByMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatisPlus_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.skye.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.skye" />
-      <option name="MAIN_CLASS_NAME" value="com.example.skye.MyBatisPlusDemoApplicationTests" />
-      <option name="METHOD_NAME" value="testDeleteByMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestArrayTest.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestStringTest.longestCommonPrefix">
+    <configuration name="TestDoubleArrayTest.findDiagonalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -142,14 +108,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestArrayTest" />
-      <option name="METHOD_NAME" value="merge" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestDoubleArrayTest" />
+      <option name="METHOD_NAME" value="findDiagonalOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArrayTest.pivotIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDoubleArrayTest.rotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -158,14 +124,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestArrayTest" />
-      <option name="METHOD_NAME" value="pivotIndex" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestDoubleArrayTest" />
+      <option name="METHOD_NAME" value="rotate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArrayTest.searchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDoubleArrayTest.setZeroes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +140,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestArrayTest" />
-      <option name="METHOD_NAME" value="searchInsert" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestDoubleArrayTest" />
+      <option name="METHOD_NAME" value="setZeroes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStringTest.longestCommonPrefix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DataStructure" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestStringTest" />
+      <option name="METHOD_NAME" value="longestCommonPrefix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStringTest.longestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DataStructure" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestStringTest" />
+      <option name="METHOD_NAME" value="longestPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestArrayTest.merge" />
-        <item itemvalue="JUnit.TestArrayTest.searchInsert" />
-        <item itemvalue="JUnit.TestArrayTest.pivotIndex" />
-        <item itemvalue="应用程序.Test01" />
-        <item itemvalue="JUnit.MyBatisPlusDemoApplicationTests.testDeleteByMap" />
+        <item itemvalue="JUnit.TestStringTest.longestCommonPrefix" />
+        <item itemvalue="JUnit.TestStringTest.longestPalindrome" />
+        <item itemvalue="JUnit.TestDoubleArrayTest.findDiagonalOrder" />
+        <item itemvalue="JUnit.TestDoubleArrayTest.setZeroes" />
+        <item itemvalue="JUnit.TestDoubleArrayTest.rotate" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +212,8 @@
       <workItem from="1711437411783" duration="1784000" />
       <workItem from="1712800804579" duration="8895000" />
       <workItem from="1712833314645" duration="6248000" />
-      <workItem from="1712884971392" duration="878000" />
+      <workItem from="1712884971392" duration="15646000" />
+      <workItem from="1712926010489" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架">
       <option name="closed" value="true" />
@@ -248,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711095023893</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="数组提交">
+      <option name="closed" value="true" />
+      <created>1712886500255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712886500255</updated>
+    </task>
+    <task id="LOCAL-00006" summary="数组提交">
+      <option name="closed" value="true" />
+      <created>1712886569932</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712886569932</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +277,14 @@
       <path value="$PROJECT_DIR$/MyBatisPlus_demo" />
     </ignored-roots>
     <MESSAGE value="初始框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始框架" />
+    <MESSAGE value="数组提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="rl" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
