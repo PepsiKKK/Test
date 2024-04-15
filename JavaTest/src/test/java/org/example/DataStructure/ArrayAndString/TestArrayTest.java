@@ -1,11 +1,7 @@
-package org.example.DataStructure;
+package org.example.DataStructure.ArrayAndString;
 
+import org.example.DataStructure.ArrayAndString.TestArray;
 import org.junit.Test;
-
-import java.util.Arrays;
-import java.util.Comparator;
-
-import static org.junit.Assert.*;
 
 public class TestArrayTest {
 

@@ -1,4 +1,4 @@
-package org.example.DataStructure;
+package org.example.DataStructure.ArrayAndString;
 
 import java.util.Arrays;
 

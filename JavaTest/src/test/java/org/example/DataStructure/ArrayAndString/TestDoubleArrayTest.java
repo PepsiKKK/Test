@@ -1,10 +1,9 @@
-package org.example.DataStructure;
+package org.example.DataStructure.ArrayAndString;
 
+import org.example.DataStructure.ArrayAndString.TestDoubleArray;
 import org.junit.Test;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.*;
 
 public class TestDoubleArrayTest {
 

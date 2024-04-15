@@ -1,6 +1,7 @@
-package org.example.DataStructure;
+package org.example.DataStructure.ArrayAndString;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class TestString {
 
@@ -87,12 +88,36 @@ public class TestString {
     }
 
     /**
-     * 反转单词
+     * 反转单词 给你一个字符串 s ，请你反转字符串中 单词 的顺序
+     * 输入：s = "the sky is blue"
+     * 输出："blue is sky the"
      * @param s
      * @return
      */
-    public String reverseWords(String s) {
+    public static String reverseWords(String s) {
+        // 设置一个字符串类型的栈存放单词
+        Stack<String> stack = new Stack<>();
+        // 去除首位的空白
+        s.trim();
+        //将字符串根据空格分隔成字符串数组
         String[] wordArray = s.split(" ");
+        //放入栈中
+        for (String word : wordArray) {
+            if (!word.isEmpty()) {
+                stack.add(word);
+            }
+        }
+        //创建一个动态字符串
+        StringBuffer stringBuffer = new StringBuffer();
+        //出栈，并加上空格
+        while (!stack.isEmpty()) {
+            stringBuffer.append(stack.pop());
+            if (!stack.isEmpty()){
+                stringBuffer.append(" ");
+            }
+        }
+        //返回
+        return stringBuffer.toString();
     }
 
 }

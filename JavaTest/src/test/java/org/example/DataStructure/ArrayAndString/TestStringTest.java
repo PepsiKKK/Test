@@ -1,8 +1,7 @@
-package org.example.DataStructure;
+package org.example.DataStructure.ArrayAndString;
 
+import org.example.DataStructure.ArrayAndString.TestString;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class TestStringTest {
     String str = "abacd";
@@ -18,5 +17,10 @@ public class TestStringTest {
     @Test
     public void longestCommonPrefix() {
         System.out.println(TestString.longestCommonPrefix(strs));
+    }
+
+    @Test
+    public void reverseWords() {
+        System.out.println(TestString.reverseWords("  this is a word          "));
     }
 }

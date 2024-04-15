@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f0cc772-4cf1-4da1-9c05-aaac5a7d77dd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/TestDoubleArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/TestStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/ArrayAndString/TestAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/ArrayAndString/TestDoublePointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/ArrayAndString/TestAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/ArrayAndString/TestDoublePointerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestDoubleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestDoubleArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/target/test-classes/org/example/DataStructure/TestArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/test-classes/org/example/DataStructure/TestArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/ArrayAndString/TestArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestDoubleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/ArrayAndString/TestDoubleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/ArrayAndString/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/TestArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/ArrayAndString/TestArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/TestDoubleArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/ArrayAndString/TestDoubleArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/TestStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/test/java/org/example/DataStructure/ArrayAndString/TestStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/DataStructure/TestArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/target/test-classes/org/example/DataStructure/TestArrayTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +79,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.291954&quot;,
@@ -94,86 +103,90 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.DataStructure.ArrayAndString" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.DataStructure.ArrayAndString" />
       <recent name="org.example.DataStructure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStringTest.longestCommonPrefix">
-    <configuration name="TestDoubleArrayTest.findDiagonalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAllTest.moveZeroes">
+    <configuration name="TestAllTest.findMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DataStructure.*" />
+          <option name="PATTERN" value="org.example.DataStructure.ArrayAndString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestDoubleArrayTest" />
-      <option name="METHOD_NAME" value="findDiagonalOrder" />
+      <option name="PACKAGE_NAME" value="org.example.DataStructure.ArrayAndString" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.ArrayAndString.TestAllTest" />
+      <option name="METHOD_NAME" value="findMin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDoubleArrayTest.rotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAllTest.generate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DataStructure.*" />
+          <option name="PATTERN" value="org.example.DataStructure.ArrayAndString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestDoubleArrayTest" />
-      <option name="METHOD_NAME" value="rotate" />
+      <option name="PACKAGE_NAME" value="org.example.DataStructure.ArrayAndString" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.ArrayAndString.TestAllTest" />
+      <option name="METHOD_NAME" value="generate2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDoubleArrayTest.setZeroes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAllTest.getRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DataStructure.*" />
+          <option name="PATTERN" value="org.example.DataStructure.ArrayAndString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestDoubleArrayTest" />
-      <option name="METHOD_NAME" value="setZeroes" />
+      <option name="PACKAGE_NAME" value="org.example.DataStructure.ArrayAndString" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.ArrayAndString.TestAllTest" />
+      <option name="METHOD_NAME" value="getRow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringTest.longestCommonPrefix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAllTest.moveZeroes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DataStructure.*" />
+          <option name="PATTERN" value="org.example.DataStructure.ArrayAndString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestStringTest" />
-      <option name="METHOD_NAME" value="longestCommonPrefix" />
+      <option name="PACKAGE_NAME" value="org.example.DataStructure.ArrayAndString" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.ArrayAndString.TestAllTest" />
+      <option name="METHOD_NAME" value="moveZeroes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringTest.longestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAllTest.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DataStructure.*" />
+          <option name="PATTERN" value="org.example.DataStructure.ArrayAndString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.TestStringTest" />
-      <option name="METHOD_NAME" value="longestPalindrome" />
+      <option name="PACKAGE_NAME" value="org.example.DataStructure.ArrayAndString" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.ArrayAndString.TestAllTest" />
+      <option name="METHOD_NAME" value="reverseWords" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestStringTest.longestCommonPrefix" />
-        <item itemvalue="JUnit.TestStringTest.longestPalindrome" />
-        <item itemvalue="JUnit.TestDoubleArrayTest.findDiagonalOrder" />
-        <item itemvalue="JUnit.TestDoubleArrayTest.setZeroes" />
-        <item itemvalue="JUnit.TestDoubleArrayTest.rotate" />
+        <item itemvalue="JUnit.TestAllTest.moveZeroes" />
+        <item itemvalue="JUnit.TestAllTest.findMin" />
+        <item itemvalue="JUnit.TestAllTest.reverseWords" />
+        <item itemvalue="JUnit.TestAllTest.getRow" />
+        <item itemvalue="JUnit.TestAllTest.generate2" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +227,10 @@
       <workItem from="1712833314645" duration="6248000" />
       <workItem from="1712884971392" duration="15646000" />
       <workItem from="1712926010489" duration="665000" />
+      <workItem from="1713075527090" duration="15475000" />
+      <workItem from="1713143260781" duration="6434000" />
+      <workItem from="1713162330974" duration="6818000" />
+      <workItem from="1713180364779" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架">
       <option name="closed" value="true" />
