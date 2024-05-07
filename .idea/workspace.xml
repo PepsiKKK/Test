@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f0cc772-4cf1-4da1-9c05-aaac5a7d77dd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/LockTest/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/LockTest/SynTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/PC/PC01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/PC/PC02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/PC/PC03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/eightLock/Lock01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/eightLock/Lock02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/eightLock/Lock03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/eightLock/Lock04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/eightLock/Lock05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/eightLock/Lock06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/eightLock/Lock07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/eightLock/Lock08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/Demo01/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JavaBaseTest/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/ThreadTest/syn/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/ThreadTest/syn/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/ThreadTest/syn/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/ThreadTest/syn/Bank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/ThreadTest/syn/TestSynBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/ThreadTest/syn/TestSynBank.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,42 +48,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/IDEA_Workplace/Test/JavaTest/src/main/java/org/example/Java/JUCTest/LockTest",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.291954",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IDEA_Workplace/Test/JavaTest/src/main/java/org/example/Java/JUCTest/LockTest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.291954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;
     ],
-    "DatabaseDriversLRU": [
-      "mysql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA_Workplace\Test\JavaTest\src\main\java\org\example\Java\JUCTest\LockTest" />
@@ -118,20 +103,7 @@
       <recent name="org.example.DataStructure" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Lock07">
-    <configuration name="Lock03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.eightLock.Lock03" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java.JUCTest.eightLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.Test01">
     <configuration name="Lock04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.eightLock.Lock04" />
       <module name="JavaTest" />
@@ -184,6 +156,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JavaBaseTest.Test01" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Java.JavaBaseTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyBatisPlusDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="MyBatisPlus_demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.skye.MyBatisPlusDemoApplication" />
@@ -193,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Test01" />
         <item itemvalue="应用程序.Lock07" />
         <item itemvalue="应用程序.Lock06" />
         <item itemvalue="应用程序.Lock05" />
         <item itemvalue="应用程序.Lock04" />
-        <item itemvalue="应用程序.Lock03" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +219,8 @@
       <workItem from="1713785429488" duration="213000" />
       <workItem from="1713785661033" duration="3203000" />
       <workItem from="1713835284583" duration="13423000" />
+      <workItem from="1713923613827" duration="3499000" />
+      <workItem from="1714013558506" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架">
       <option name="closed" value="true" />
@@ -331,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713857578525</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="静态方法测试">
+      <option name="closed" value="true" />
+      <created>1713923682902</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713923682902</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +359,8 @@
     <MESSAGE value="单链表更改，双指针链表创建，MPcurd部分更新" />
     <MESSAGE value="Generating..." />
     <MESSAGE value="java并发编程" />
-    <option name="LAST_COMMIT_MESSAGE" value="java并发编程" />
+    <MESSAGE value="静态方法测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="静态方法测试" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
