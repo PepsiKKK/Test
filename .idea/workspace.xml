@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f0cc772-4cf1-4da1-9c05-aaac5a7d77dd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/UnsafeCol.java" afterDir="false" />
+    <list default="true" id="9f0cc772-4cf1-4da1-9c05-aaac5a7d77dd" name="更改" comment="测试了位运算，新增了算法题：找最多水">
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/CallableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/UtilsTest/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/UtilsTest/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/UtilsTest/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JavaBaseTest/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JavaBaseTest/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/Demo01/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/Demo01/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/DataStructure/Demo01/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/DataStructure/Demo01/Test01.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/UtilsTest/CountDownLatchDemo.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,65 +111,65 @@
       <recent name="org.example.DataStructure" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.UnsafeCol">
-    <configuration name="Lock05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.eightLock.Lock05" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java.JUCTest.eightLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lock06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.eightLock.Lock06" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java.JUCTest.eightLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lock07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.eightLock.Lock07" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java.JUCTest.eightLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JavaBaseTest.Test01" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java.JavaBaseTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnsafeCol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.UnsafeCol" />
+  <component name="RunManager" selected="应用程序.SemaphoreDemo">
+    <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.CallableTest" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.Java.JUCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.UtilsTest.CountDownLatchDemo" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Java.JUCTest.UtilsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.UtilsTest.CyclicBarrierDemo" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Java.JUCTest.UtilsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.UtilsTest.SemaphoreDemo" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Java.JUCTest.UtilsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.DataStructure.Demo01.Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.Demo01.Test01" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DataStructure.Demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.UnsafeCol" />
-        <item itemvalue="应用程序.Test01" />
-        <item itemvalue="应用程序.Lock07" />
-        <item itemvalue="应用程序.Lock06" />
-        <item itemvalue="应用程序.Lock05" />
+        <item itemvalue="应用程序.SemaphoreDemo" />
+        <item itemvalue="应用程序.CyclicBarrierDemo" />
+        <item itemvalue="应用程序.CountDownLatchDemo" />
+        <item itemvalue="应用程序.CallableTest" />
+        <item itemvalue="应用程序.org.example.DataStructure.Demo01.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +230,8 @@
       <workItem from="1713923613827" duration="3499000" />
       <workItem from="1714013558506" duration="965000" />
       <workItem from="1715066521870" duration="3402000" />
+      <workItem from="1715651017414" duration="3205000" />
+      <workItem from="1715671885434" duration="6509000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架">
       <option name="closed" value="true" />
