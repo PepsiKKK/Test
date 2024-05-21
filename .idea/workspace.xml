@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f0cc772-4cf1-4da1-9c05-aaac5a7d77dd" name="更改" comment="测试了位运算，新增了算法题：找最多水">
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/UtilsTest/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/UtilsTest/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/UtilsTest/SemaphoreDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+    <list default="true" id="9f0cc772-4cf1-4da1-9c05-aaac5a7d77dd" name="更改" comment="JUC常用辅助类">
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/BlockingQueue/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/BlockingQueue/SynchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/LockTest/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/pool/ThreadPoolExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/pool/ThreeMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/BlockingQueue/Demo01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/BlockingQueue/SynchronousQueueDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/LockTest/MyCacheLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/LockTest/ReadWriteLockDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/pool/ThreadPoolExecutorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/pool/ThreeMethod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/Demo01/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/DataStructure/Demo01/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/DataStructure/Demo01/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/DataStructure/Demo01/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/LockTest/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/src/main/java/org/example/Java/JUCTest/LockTest/LockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/LockTest/LockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/LockTest/LockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/LockTest/Ticket2.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/LockTest/Ticket2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/UtilsTest/SemaphoreDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/target/classes/org/example/Java/JUCTest/UtilsTest/SemaphoreDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +88,7 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.291954&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -111,13 +119,13 @@
       <recent name="org.example.DataStructure" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.SemaphoreDemo">
-    <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.CallableTest" />
+  <component name="RunManager" selected="应用程序.ThreadPoolExecutorDemo">
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.BlockingQueue.Demo01" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Java.JUCTest.*" />
+          <option name="PATTERN" value="org.example.Java.JUCTest.BlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.UtilsTest.CountDownLatchDemo" />
+    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.LockTest.ReadWriteLockDemo" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Java.JUCTest.UtilsTest.*" />
+          <option name="PATTERN" value="org.example.Java.JUCTest.LockTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.UtilsTest.CyclicBarrierDemo" />
+    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.BlockingQueue.SynchronousQueueDemo" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Java.JUCTest.UtilsTest.*" />
+          <option name="PATTERN" value="org.example.Java.JUCTest.BlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.UtilsTest.SemaphoreDemo" />
+    <configuration name="ThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.pool.ThreadPoolExecutorDemo" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Java.JUCTest.UtilsTest.*" />
+          <option name="PATTERN" value="org.example.Java.JUCTest.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.DataStructure.Demo01.Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DataStructure.Demo01.Test01" />
+    <configuration name="ThreeMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java.JUCTest.pool.ThreeMethod" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DataStructure.Demo01.*" />
+          <option name="PATTERN" value="org.example.Java.JUCTest.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.SemaphoreDemo" />
-        <item itemvalue="应用程序.CyclicBarrierDemo" />
-        <item itemvalue="应用程序.CountDownLatchDemo" />
-        <item itemvalue="应用程序.CallableTest" />
-        <item itemvalue="应用程序.org.example.DataStructure.Demo01.Test01" />
+        <item itemvalue="应用程序.ThreadPoolExecutorDemo" />
+        <item itemvalue="应用程序.ThreeMethod" />
+        <item itemvalue="应用程序.SynchronousQueueDemo" />
+        <item itemvalue="应用程序.Demo01" />
+        <item itemvalue="应用程序.ReadWriteLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +239,10 @@
       <workItem from="1714013558506" duration="965000" />
       <workItem from="1715066521870" duration="3402000" />
       <workItem from="1715651017414" duration="3205000" />
-      <workItem from="1715671885434" duration="6509000" />
+      <workItem from="1715671885434" duration="6700000" />
+      <workItem from="1715737708602" duration="3432000" />
+      <workItem from="1716170440109" duration="5975000" />
+      <workItem from="1716256735158" duration="4926000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架">
       <option name="closed" value="true" />
@@ -345,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715066675874</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="JUC常用辅助类">
+      <option name="closed" value="true" />
+      <created>1715686088727</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715686088727</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +399,8 @@
     <MESSAGE value="java并发编程" />
     <MESSAGE value="静态方法测试" />
     <MESSAGE value="测试了位运算，新增了算法题：找最多水" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试了位运算，新增了算法题：找最多水" />
+    <MESSAGE value="JUC常用辅助类" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUC常用辅助类" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

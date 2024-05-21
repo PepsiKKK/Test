@@ -18,7 +18,8 @@ public class LockTest {
                     throw new RuntimeException(e);
                 }
             }
-        }, "A").start();        new Thread(() -> {
+        }, "A").start();
+        new Thread(() -> {
             for (int i = 0; i < 40; i++) {
                 try {
                     t.sale();
@@ -26,7 +27,8 @@ public class LockTest {
                     throw new RuntimeException(e);
                 }
             }
-        }, "B").start();        new Thread(() -> {
+        }, "B").start();
+        new Thread(() -> {
             for (int i = 0; i < 40; i++) {
                 try {
                     t.sale();
